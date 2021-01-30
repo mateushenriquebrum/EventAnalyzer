@@ -2,7 +2,7 @@
 
 The goal of this command line application is to merge events, that comes in parties from a file and save into a database.
 
-The application use clean architecture, multi-thread and support files over 1GB.
+The application use clean architecture, **multi-thread** and support files over **1GB**.
 
 # How to run
 ```
