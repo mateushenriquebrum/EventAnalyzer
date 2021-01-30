@@ -1,8 +1,9 @@
-#Goal
+# Goal
+
 The goal of this command line application is to merge events from a file.
 The application use clean architecture and support files over 1GB.
 
-#How to run
+# How to run
 
 > git clone https://github.com/mateushenriquebrum/EventAnalyzer
 
@@ -14,6 +15,6 @@ The application use clean architecture and support files over 1GB.
 
 You will see the import in progress, after all you can access the data by **jdbc:hsqldb:file:$(pwd)\hsqldb\events** uri
 
-#Architecture
+# Architecture
 
 :TODO
