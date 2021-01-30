@@ -13,7 +13,9 @@ $> ./gradlew build
 $> java -jar build/libs/EventAnalyzer-1.0.0.jar $(pwd)/events.txt
 ```
 
-You will see the import in progress, after all you can access the data by **jdbc:hsqldb:file:$(pwd)\hsqldb\events** uri
+You can also use `events-gen.js` to generate some huge files for test.
+
+You will see the import in progress, after all you can access the data by **jdbc:hsqldb:file:$(pwd)\hsqldb\events** uri.
 
 # Architecture
 The architecture consiste in a version of infamous [MapReduce Architecture](https://www.geeksforgeeks.org/mapreduce-architecture/) but in this case using threads as processing unit.
