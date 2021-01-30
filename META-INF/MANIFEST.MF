@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+brum.mateus.event.Main-Class: brum.mateus.event.Main
+
